@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: -8rem;
+    left: 7%;
+    width: 16rem;
+    height: 16rem;
+    margin: auto;
+    background-color: white;
+    border-radius:  100%;
+}
+
+.logo img {
+    position: relative;
+    top: -2rem;
+    width: auto;
+    height: 6rem;
+}
+
+header {
+    background-image: url(../images/bigin-adwords-banner.webp);
+    background-size: cover;
+    display: flex;
+    padding: 5% 20%;
+    justify-content: space-between;
+    gap: 15%;
+    font-size: 160%;
+}
+
+header h2 {
+    font-size: 200%;
+}
+
+header article {
+    margin: auto 0;
+}
+
+form {
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form .line input  {
+    width: 100%;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+}
+
+.pre-tel {
+    width: 5rem;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5% 10%;
+    font-size: 160%;
+    
+}
+
+.tarjetas>h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.tarjetas article {
+    width: 25%;
+}
+
+.moviles {
+    font-size: 160%;
+    width: 70%;
+    margin: 5rem 15%;
+    padding: 5rem;
+    background: seagreen url(../images/bigin-smb-phone-pattern.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    border-radius: 4rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-moviles {
+    color: white;
+    width: 60%;
+}
+
+.texto-moviles h2 {
+    font-size: 200%;
+}
+
+.caja-moviles {
+    position: relative;
+    top: -2rem;
+    width: 25%;
+    height: 25rem;
+}
+
+.caja-moviles img {
+    width: 70%;
+}
+
+.caja-moviles img:nth-child(2) {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    z-index: 1;
+}
